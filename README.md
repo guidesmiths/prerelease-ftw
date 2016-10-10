@@ -10,7 +10,7 @@ npm i --save-dev prerelease-ftw
 ### package.json
 ```json
 {
-  "version": 3.2.0,
+  "version": "3.2.0",
   "scripts": {
     "prerelease": "prerelease"
   }
