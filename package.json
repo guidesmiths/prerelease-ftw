@@ -1,0 +1,23 @@
+{
+  "name": "prerelease-ftw",
+  "version": "0.0.0",
+  "description": "Generates a version with prerelease suffix from your current package version and command line arguments",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test",
+    "precommit": "npm test"
+  },
+  "bin": {
+    "prerelease": "./bin/prerelease.js"
+  },
+  "keywords": [
+    "npm",
+    "prerelease",
+    "generator"
+  ],
+  "author": "GuideSmiths Ltd",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^3.1.1"
+  }
+}
