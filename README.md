@@ -7,9 +7,10 @@ Generates a version with prerelease suffix based on the current package version 
 ```
 npm i --save-dev prerelease-ftw
 ```
-### Script
+### package.json
 ```json
 {
+  "version": 3.2.0,
   "scripts": {
     "prerelease": "prerelease"
   }
