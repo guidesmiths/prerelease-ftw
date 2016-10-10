@@ -20,5 +20,19 @@
   "devDependencies": {
     "mocha": "^3.1.1",
     "husky": "^0.11.9"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "husky": "^0.11.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guidesmiths/prerelease-ftw.git"
+  },
+  "bugs": {
+    "url": "https://github.com/guidesmiths/prerelease-ftw/issues"
+  },
+  "homepage": "https://github.com/guidesmiths/prerelease-ftw#readme"
 }
