@@ -3,6 +3,9 @@
   "version": "0.1.1",
   "description": "Generates a version with prerelease suffix from your current package version and command line arguments",
   "main": "index.js",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "scripts": {
     "test": "mocha test",
     "precommit": "npm test"
