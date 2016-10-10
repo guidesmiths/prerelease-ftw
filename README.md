@@ -22,7 +22,7 @@ npm --silent run prerelease -- build 20
 ```
 3.2.0-build.20
 ```
-### FTW
+### FTW!
 ```
 npm version $(npm --silent run prerelease -- build 20)
 ```
