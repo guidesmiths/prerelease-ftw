@@ -23,7 +23,7 @@ npm --silent run prerelease -- build 20
 ```
 3.2.0-build.20
 ```
-### CI FTW!
+### Continuous Integration FTW!
 ```
 npm npm version --no-git-tag-version version $(npm --silent run prerelease -- build ${BUILD_NUMBER})
 ```
