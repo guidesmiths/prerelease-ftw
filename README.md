@@ -17,6 +17,11 @@ npm i --save-dev prerelease-ftw
 ```
 ### Run
 ```
-npm --silent version $(npm run prerelease -- build 20)
+npm --silent run prerelease -- build 20
 ```
-# prerelease-ftw
+### Output
+```
+3.2.0-build.20
+
+### Bonus Points
+npm version $(npm --silent run prerelease -- build 20)
