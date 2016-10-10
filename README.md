@@ -1,7 +1,8 @@
 # Pre-Release FTW!
 [![Build Status](https://img.shields.io/travis/guidesmiths/prerelease-ftw/master.svg)](https://travis-ci.org/guidesmiths/prerelease-ftw)
 
-Generates a version with prerelease suffix based on the current package version and command line parameters.
+Generates a version with prerelease suffix based on the current package version and command line parameters. Useful when publishing modules from CI servers.
+
 ### Install
 ```
 npm i --save-dev prerelease-ftw
@@ -22,7 +23,7 @@ npm --silent run prerelease -- build 20
 ```
 3.2.0-build.20
 ```
-### FTW!
+### CI FTW!
 ```
-npm version $(npm --silent run prerelease -- build 20)
+npm npm version --no-git-tag-version version $(npm --silent run prerelease -- build ${BUILD_NUMBER})
 ```
