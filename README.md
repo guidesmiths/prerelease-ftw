@@ -14,7 +14,7 @@ npm i --save-dev prerelease-ftw
     "prerelease": "prerelease"
   }
 }
-
+```
 ### Run
 ```
 npm --silent version $(npm run prerelease -- build 20)
