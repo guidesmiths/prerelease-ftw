@@ -26,6 +26,6 @@ npm --silent run prerelease -- build 20
 ```
 ### Continuous Integration FTW!
 ```
-npm version --no-git-tag-version version $(npm --silent run prerelease -- build ${BUILD_NUMBER})
+npm --no-git-tag-version version $(npm --silent run prerelease -- build ${BUILD_NUMBER})
 npm publish
 ```
